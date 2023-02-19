@@ -32,6 +32,6 @@ if uploaded_file is not None:
         is_hotdog = Image.open('no.png')
     st.image(is_hotdog, width=400)
     st.image(uploaded_file, width=400)
-    
-    
 
+url = "https://github.com/erkanncelen"
+st.caption("Developed By: [Erkan Celen](%s)" % url)
